@@ -14,7 +14,6 @@ iris = load_iris()
 for key in iris.keys():
     print(f"{key}: {type(iris[key])}")
 
-
 # menampilkan DESC (deskripsi) 
 print(iris['DESCR'])
 
